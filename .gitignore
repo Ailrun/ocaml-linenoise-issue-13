@@ -1,0 +1,25 @@
+# OCaml files
+# see https://ocaml.org/learn/tutorials/filenames.html
+*.cm?*
+*.opt
+*.a
+*.o
+
+# Ocamlbuild (used internally by Dune)
+_build/
+*.byte
+*.native
+
+# Merlin configuring files
+.merlin
+
+# Dune generated files
+*.install
+
+# Mac (OS) specific files
+.DS_Store
+
+# Emacs editor setting files
+.dir-locals.el
+*~
+.projectile
